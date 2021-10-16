@@ -1,0 +1,26 @@
+{
+    "name": "nassflopetr/exchange-rate-grabber-manager-php",
+    "description": "Simple php exchange rate grabber manager.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazarii Florchuk",
+            "email": "nassflopetr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-redis": "*",
+        "psr/log":  ">=3.0.0",
+        "vlucas/phpdotenv": ">=5.3.0",
+        "nassflopetr/exchange-rate-grabber-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "NassFloPetr\\ExchangeRateGrabberManager\\": "app"
+        }
+    }
+}
